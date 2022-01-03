@@ -11,7 +11,7 @@ h2{
 .orange-love{
     color: tomato;
 }
-section{
+.flex-stn{
     display:flex;
 }
 .toppage {
@@ -41,4 +41,78 @@ p {
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-page{
+    padding-left: 60px;
+}
+.second-page img{
+    width: 70%;
+}
+
+.second-para {
+    width: 60%;
+    margin-right: 60px;
+}
+
+.second-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.second-title{
+    color: tomato;
+}
+
+.exp-padding{
+    padding-left: 60px;
+}
+.single-exp {
+    width: 40%;
+    box-shadow: 10px 10px 10px #a79f9f;
+}
+.single-padding {
+    margin-right: 100px;
+}
+.single-exp-title{
+    font-size: 40px;
+}
+.single-exp-sub{
+    color: tomato;
+}
+#border-vaia{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    padding-left:25px ;
+    padding-right:25px ;
+}
+#border-apu{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, pink);
+    border-image-slice: 1;
+    padding-left:25px ;
+    padding-right:25px ;
+}
+.experience-area{
+    margin-bottom: 80px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-header{
+    text-align:center;
+    margin-bottom: 80px;
+    color: tomato;
+}
+footer p {
+    text-align: center;
+    color: tomato;
+    padding: 30px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
 }
